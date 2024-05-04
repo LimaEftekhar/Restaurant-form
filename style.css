@@ -1,0 +1,138 @@
+/* CSS reset to create a more consistent look across different browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a basic, widely-supported font */
+    line-height: 1.6; /* A basic line-height for readability */
+    color: #333; /* A basic text color that's not too harsh */
+    background-color: #fff; /* A basic background color */
+  margin-left: 10px;
+  text-align: center;
+}
+
+/* Add your custom CSS below this line */
+
+h1{
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2{
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+ 
+  
+}
+
+nav ol li{
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 30px; 
+  margin: 20px;
+  padding: 5px;
+  text-align: center; 
+}
+
+nav ol li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+form #search{
+  width: 120px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: white;
+  
+}
+
+form #isearch{
+  width: 300px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+div{
+  display: inline-block;
+  margin: 10px;
+}
+div img{
+  width: 200px;
+  height: 160px;
+  border-radius: 10px;
+
+}
+
+div  ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+div ul li span{
+  font-weight: bold;
+}
+
+
+.food{
+  background-color: orange;
+  padding: 20px;
+ 
+  
+
+}
+.food input{
+  width: 200px;
+  height: 30px;
+  Margin: 10px 10px 10px 0px;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.food label{
+  margin-left: 20px;
+}
+ .food select{
+  width: 200px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+}
+
+#order {
+ 
+  padding: 15px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  
+  
+  
+  
+}
+
+aside span{
+  font-weight: bold;
+}
+
+
+footer{
+  background-color: orange;
+  padding: 20px;
+}
+

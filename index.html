@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header role='banner'>
+  <h1>Kabul Restaurant</h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#'>Home</a>
+      </li>
+      <li>
+        <a href='#'>Menu</a>
+      </li>
+      <li>
+        <a href='contact.html'>About Us</a>
+      </li>
+      <li>
+        <a href='about.html'>Contact US</a>
+      </li>
+    </ol>
+    <form role='search'>
+      <input id='isearch' type='search' placeholder='Enter search term here...'>
+      <input id='search' type='submit' value='search'>
+    </form>
+  </nav>
+</header>
+
+<main role='main'>
+  <h2>Afghani Food</h2>
+  <section class='menu'>
+    <div>
+      <img src="https://i.ytimg.com/vi/Jo351fZCHQQ/maxresdefault.jpg" alt="qabli">
+      
+      <ul>
+        <li><span>Qabli</span></li>
+        <li>$18</li>
+      </ul>
+     </div>
+    
+    <div>
+      <img src="https://i.ytimg.com/vi/o8TRrDA8gxo/maxresdefault.jpg" alt="mantoo">
+      <ul>
+        <li><span>Mantoo</span></li>
+        <li>$12</li>
+      </ul>
+     </div>
+    
+    <div>
+      <img src="https://i.pinimg.com/originals/4d/01/ac/4d01ac3184577fcbeb4ad265b028b3af.jpg" alt="bolani">
+      <ul>
+        <li><span>Bolani</span></li>
+        <li>$2</li>
+      </ul>
+     </div>
+   </section>
+  
+<!-- Add your restaurant order form below -->
+  <form class='food'role='order_form' action='' method='post'>
+    <label for="fname">First name:</label>
+    <input type='text' id='fname' name='fname' required>
+    <label for="mname">Middle name:</label>
+    <input type='text' id='mname' name='mname'>
+    <label for="lname">Last name:</label>
+    <input type='text' id='lname' name='lname' required><br>
+    
+     <label for="city">City:</label>
+    <input type='text' id='city' name='city' required>
+    <label for="state">State:</label>
+    <input type='text' id='state' name='state' required>
+     <label for="zcode">Zip Code:</label>
+    <input type='text' id='zcode' name='zcode' required><br>
+    <label for="phone">Phone Number:</label>
+    <input type='text' id='phone' name='phone' required>
+    <label for="email">Email:</label>
+    <input type='email' id='email' name='email' required>
+    <label for="food">Food:</label>
+    <select id="food" name="food">
+      <option value="qabli">Qabli</option>
+      <option value="manto">Manto</option>
+      <option value="bolani">Bolani</option>
+    </select><br>
+    
+     <label for="cnumber">Card Number:</label>
+    <input type='tel' id='cnumber' inputmode='numeric' pattern=''[0-9\s]{13,19}'' autocomplete='cc-number' maxlength='19' placeholder='xxxx xxxx xxxx xxxx' name='cnumber' required>
+    <label for="edate">Expiration Date:</label>
+    <input type='text' id='edate' name='edate' placeholder='month/year' required>
+     <label for="sdigit">Three Digit Security:</label>
+    <input type='text' pattern='[0-9]{3}' id='sdigit' name='sdigit' required><br>
+    
+    <input id='order' type='submit' value='Order'>
+  </form>
+<!-- Add your restaurant order form above -->
+</main>
+
+<aside role='complementary'>
+  <h2>Food Ingredients</h2>
+  <p><span>Qabli-</span>Rice, Carrots, Raisins, and Lamb</p>
+  <p><span>Mantoo-</span>Ground Lamb, Diced Onions, Green Chili</p>
+  <p><span>Bolani-</span>Flour, Potato, Oil, and  Pepper</p>
+</aside>
+
+<footer role='contentinfo'>
+  <p>© Lima Eftekhar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
